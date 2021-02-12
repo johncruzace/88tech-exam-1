@@ -131,7 +131,6 @@ public class CurrencyService {
     }
 
 
-
     private Currency retrieveCurrencyByName (String currencyName) throws EntityNotFoundException{
         Optional<Currency> currencyOption = currencyRepository.findByBaseCurrency(currencyName);
         if(currencyOption.isPresent()){
