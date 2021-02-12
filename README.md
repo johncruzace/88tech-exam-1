@@ -11,3 +11,4 @@ Retrieve latest by Currency and Generated Date - /rate-test/rates/{currencyName}
 
 MultiThread Sample
 * Please see MultiThread directory for the implementation of Producer and Consumer.
+
