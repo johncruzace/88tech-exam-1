@@ -4,11 +4,11 @@ Currently inserted currency for get exchange rate (PHP, USD, EUR)
 
 API Usages
 
-Retrieve All latest Rates on Current Date - /rate-test/rates/
+Retrieve All latest Rates on Current Date - GET /rate-test/rates/
 
-Retrieve latest by Currency - /rate-test/rates/{currencyName}
+Retrieve latest by Currency - GET /rate-test/rates/{currencyName}
 
-Retrieve latest by Currency and Generated Date - /rate-test/rates/{currencyName}/{generatedDate}
+Retrieve latest by Currency and Generated Date - GET /rate-test/rates/{currencyName}/{generatedDate}
 
 
 MultiThread Sample
