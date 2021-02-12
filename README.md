@@ -1,16 +1,16 @@
 # 88tech-exam-1
 
-Currently inserted currency for get exchange rate (PHP, USD, EUR)
+*Currently inserted base currency for get exchange rate (PHP, USD, EUR)*
 
-API Usages
+### API Usages
 
-Retrieve All latest Rates on Current Date - GET /rate-test/rates/
+**GET** /rate-test/rates/ - *Retrieve All latest Rates on Current Date.*
 
-Retrieve latest by Currency - GET /rate-test/rates/{currencyName}
+**GET** /rate-test/rates/**{currencyName}** - *Retrieve latest by Currency, currencyName is one of the currently inserted base currency.*
 
-Retrieve latest by Currency and Generated Date - GET /rate-test/rates/{currencyName}/{generatedDate}
+**GET** /rate-test/rates/**{currencyName}**/**{generatedDate}** - *Retrieve latest by Currency and Generated Date. currencyName is one of the currently inserted base currency. generated date is a date filter*
 
 
-MultiThread Sample
+### MultiThread Sample
 * Please see MultiThread directory for the implementation of Producer and Consumer.
 
