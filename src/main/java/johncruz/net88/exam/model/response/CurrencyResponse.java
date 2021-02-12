@@ -11,7 +11,7 @@ import java.util.List;
 public class CurrencyResponse {
 
     private String currencyName;
-    private LocalDate dateGenerated;
+    private LocalDate latestDateGenerated;
     private List<Rates> ratesList;
 
     public String getCurrencyName() {
@@ -22,19 +22,19 @@ public class CurrencyResponse {
         this.currencyName = currencyName;
     }
 
-    public LocalDate getGeneratedDate() {
-        return dateGenerated;
-    }
-
-    public void setGeneratedDate(LocalDate generatedDate) {
-        this.dateGenerated = generatedDate;
-    }
-
     public List<Rates> getRatesList() {
         return ratesList;
     }
 
     public void setRatesList(List<Rates> ratesList) {
         this.ratesList = ratesList;
+    }
+
+    public LocalDate getLatestDateGenerated() {
+        return latestDateGenerated;
+    }
+
+    public void setLatestDateGenerated(LocalDate latestDateGenerated) {
+        this.latestDateGenerated = latestDateGenerated;
     }
 }
